@@ -15,3 +15,5 @@
 
 - Programma "contacifre.c": Programma che conteggia i caratteri di spaziatura (caratteri di tabulazione, spazi e newline), le cifre (separatamente) e gli altri caratteri 
 	      forniti allo standard input.
+
+- Programma "spazimultipli.c": Programma che elimina gli spazi multipli da un testo dato in input.
