@@ -13,6 +13,21 @@
 
 int main () {
 
+	/*
+
+		STATI:
+		1)	"NORM"=stato normale;
+		2)	"SPACE"=spazio incontrato.
+
+		TABELLA STATI:
+		Stato:      Input:    Output:     Nuovo Stato
+		NORM        c!=' '      c              -
+		NORM        c==' '      c             SPACE
+		SPACE       c!=' '      c             NORM
+		SPACE       c==' '      -              -
+
+	*/
+
 	enum Stato{NORM,SPACE};
 
 	int stato=NORM,c;
