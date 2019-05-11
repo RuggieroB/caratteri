@@ -17,3 +17,5 @@
 	      forniti allo standard input.
 
 - Programma "spazimultipli.c": Programma che elimina gli spazi multipli da un testo dato in input.
+
+- Programma "contaparole.c": Programma che conta i caratteri, le righe e le parole di un testo fornito allo standard input. Si ipotizza che nel testo in ingresso non siano presenti spazi multipli.
