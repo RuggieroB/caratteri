@@ -21,3 +21,5 @@
 - Programma "contaparole.c": Programma che conta i caratteri, le righe e le parole di un testo fornito allo standard input. Si ipotizza che nel testo in ingresso non siano presenti spazi multipli.
 
 - Programa "stampaparole.c": Programma che stampa, una per riga, le parole di un testo fornito allo standard input. Si ipotizza che nel testo in ingresso non siano presenti spazi multipli.
+
+- Programma "eliminacommenti.c": Programma che elimina i commenti da un file C.
