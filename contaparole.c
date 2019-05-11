@@ -1,12 +1,10 @@
+
 /*
-
 # caratteri
-
 # Programmi di Laboratorio di Programmazione in Linguaggio "C". Alunno: Bucchianico Enrico Ruggiero, 4^Finf.
 
 
 - Programma "contaparole.c": Programma che conta i caratteri, le righe e le parole di un testo fornito allo standard input. Si ipotizza che nel testo in ingresso non siano presenti spazi multipli.
-
 */
 
 #include <stdio.h>
@@ -15,12 +13,10 @@ int main()
 {
 	
 	/*
-
 		STATI:
 		1)	"INIZ"=Carattere iniziale;
 		2)	"INT"=Interno alla parola;
 		3)	"EST"=esterno alla parola.
-
 		TABELLA STATI:
 		Stato:		Input:		Output:		Nuovo Stato:
 		INIZ		c==' ' or
@@ -38,7 +34,6 @@ int main()
 		EST		c==' ' and
 				c=='\n' and
 				c=='\t'		p++
-
 	*/
 
 	enum Stato{INIZ,INT,EST};
