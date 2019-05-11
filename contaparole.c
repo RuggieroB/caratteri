@@ -24,7 +24,7 @@ int main()
 				c=='\t'				EST
 		INIZ		c==' ' and
 				c=='\n' and
-				c=='\t'		p++	INT
+				c=='\t'		p++		INT
 		INT		c==' ' or
 				c=='\n' or
 				c=='\t'				EST
