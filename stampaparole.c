@@ -25,17 +25,18 @@ int main()
 		INIZ		c==' ' or
 				c=='\n' or
 				c=='\t'				EST
-		INIZ		c==' ' and
-				c=='\n' and
-				c=='\t'		c		INT
+		INIZ		c!=' ' and
+				c!='\n' and
+				c!='\t'		p++		INT
 		INT		c==' ' or
 				c=='\n' or
-				c=='\t'		'\n'		EST
+				c=='\t'				EST
 		INT		c==' ' and
+				c=='\n' and	p++
+				c=='\t'
+		EST		c==' ' and
 				c=='\n' and
-				c=='\t'		c
-		EST				c		INT
-
+				c=='\t'		p++		INT
 	*/
 
 	enum Stato{INIZ,INT,EST};
