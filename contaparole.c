@@ -1,10 +1,12 @@
-
 /*
+
 # caratteri
+
 # Programmi di Laboratorio di Programmazione in Linguaggio "C". Alunno: Bucchianico Enrico Ruggiero, 4^Finf.
 
 
 - Programma "contaparole.c": Programma che conta i caratteri, le righe e le parole di un testo fornito allo standard input. Si ipotizza che nel testo in ingresso non siano presenti spazi multipli.
+
 */
 
 #include <stdio.h>
