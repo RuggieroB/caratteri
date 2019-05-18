@@ -14,11 +14,12 @@
 int main()
 {
 	
-	/*
+		/*
 		STATI:
 		1)	"INIZ"=Carattere iniziale;
 		2)	"INT"=Interno alla parola;
 		3)	"EST"=esterno alla parola.
+
 		TABELLA STATI:
 		Stato:		Input:		Output:		Nuovo Stato:
 		INIZ		c==' ' or
@@ -26,16 +27,16 @@ int main()
 				c=='\t'				EST
 		INIZ		c!=' ' and
 				c!='\n' and
-				c!='\t'		p++		INT
+				c!='\t'		c		INT
 		INT		c==' ' or
 				c=='\n' or
 				c=='\t'				EST
 		INT		c==' ' and
-				c=='\n' and	p++
+				c=='\n' and	c
 				c=='\t'
 		EST		c==' ' and
 				c=='\n' and
-				c=='\t'		p++		INT
+				c=='\t'		c		INT
 	*/
 
 	enum Stato{INIZ,INT,EST};
