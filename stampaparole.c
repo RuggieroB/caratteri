@@ -33,9 +33,9 @@ int main()
 				c=='\t'				EST
 		INT		c!=' ' and
 				c!='\n' and	
-				c!='\t'		c
-		EST		c!=' ' or
-				c!='\n' or
+				c!='\t'		
+		EST		c!=' ' and
+				c!='\n' and
 				c!='\t'		c		INT
 	*/
 
