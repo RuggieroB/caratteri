@@ -30,10 +30,10 @@ int main()
 				c!='\t'		c		INT
 		INT		c==' ' or
 				c=='\n' or
-				c=='\t'				EST
+				c=='\t'		\n		EST
 		INT		c!=' ' and
 				c!='\n' and	
-				c!='\t'		
+				c!='\t'		c
 		EST		c!=' ' and
 				c!='\n' and
 				c!='\t'		c		INT
