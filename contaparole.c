@@ -27,7 +27,7 @@ int main()
 				c=='\t'				EST
 		INIZ		c!=' ' and
 				c!='\n' and
-				c!='\t'		c		INT
+				c!='\t'		car++		INT
 		INT		c==' ' or
 				c=='\n' or
 				c=='\t'				EST
@@ -36,7 +36,7 @@ int main()
 				c!='\t'		
 		EST		c!=' ' and
 				c!='\n' and
-				c!='\t'		c		INT
+				c!='\t'		car++		INT
 	*/
 
 	enum Stato{INIZ,INT,EST};
