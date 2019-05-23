@@ -32,11 +32,8 @@ int main()
 				c=='\n' or
 				c=='\t'				EST
 		INT		c!=' ' and
-				c!='\n' and	c
-				c!='\t'
-		EST		c==' ' or
-				c=='\n' or
-				c=='\t'		
+				c!='\n' and	
+				c!='\t'		c
 		EST		c!=' ' or
 				c!='\n' or
 				c!='\t'		c		INT
